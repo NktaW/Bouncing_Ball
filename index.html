@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blobs</title>
+</head>
+<body>
+  <table style="text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: auto;">
+	  <h1>Bouncing Ball</h1>
+
+      <canvas id="myCanvas" 
+          width=550px height=250px 
+          style="border:1px solid #000000;">
+        </canvas>
+  </table>
+
+
+  <button
+      id="btnClick"
+      value="Start"
+      onclick="canvasDraw();"
+      style="
+        background-color: #0fba00;
+        border: none;
+        color: white;
+        padding: 15px 22px;
+      ">START</button>
+
+  <button
+        id="removeBtn"
+      onclick="removeBlob();"
+        style="
+        background-color: #ba0000;
+        border: none;
+        color: white;
+        padding: 15px 22px;
+        ">REMOVE</button>
+    
+</br>
+    <p>Press the START button to add Blobs</p>
+
+    <p>Use REMOVE button to delete single blob</p>
+
+
+
+	<script src="index.js"></script>
+
+</body>
+</html>
